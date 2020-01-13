@@ -1,0 +1,10 @@
+    AuthType Basic
+    AuthName "Password Protected Area"
+    AuthUserFile /app/.htpasswd
+    Require valid-user
+    Options All -Indexes
+    
+<Files .env>
+Order Allow,Deny
+Deny from all
+</Files>
