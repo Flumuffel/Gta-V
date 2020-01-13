@@ -1,0 +1,49 @@
+{
+	"phone": {
+		"name": "iphone",
+		"left": 0,
+		"top": 0,
+		"width": "100%",
+		"phoneImage": {
+			"file":"./phones/iphone/iphone.png",
+			"width":"338px",
+			"height":"718px",
+			"backgroundSize":"338px"		
+		},
+		"wallpaper": {
+			"width": "288px",
+			"height": "506px"
+		},
+		"screen": {
+			"width": "288px",
+			"top": "103px",
+			"left": "26px"
+		},
+		"metaWidgets": {
+			"carrier": true,
+			"signal": true,
+			"battery": {
+				"class": "fa fa-bath"
+			}
+		},
+		"template": {
+			"scss": "./phones/iphone/iphone.scss",
+			"scripts": []
+		},
+		"homeButton": {
+			"enabled": true,
+			"id":"iphone-home-btn",
+			"left": "126px",
+			"bottom":"22px"
+		},
+		"lockScreen": {
+			"ctaType": "click",
+			"ctaText": "Click the home button to unlock",
+			"ctaClickToUnlockElement": "iphone-home-btn",
+			"offset": {
+				"bottom":"100px",
+				"left":"39px"
+			}
+		}
+	}
+}
